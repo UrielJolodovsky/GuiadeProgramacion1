@@ -14,12 +14,16 @@ public class Ejercicio12 : MonoBehaviour
 {
     
     int[] dados = new int[3];
-    public int dado1;
-    public int dado2;
-    public int dado3;
+    int dado1;
+    int dado2;
+    int dado3;
     // Start is called before the first frame update
     void Start()
     {
+        dado1 = Random.Range(1, 7);
+        dado2 = Random.Range(1, 7);
+        dado3 = Random.Range(1, 7);
+
         dados[0] = dado1;
         dados[1] = dado2;
         dados[2] = dado3;
