@@ -21,7 +21,7 @@ public class Ejercicio15 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (num > -10 && num < 10 && num%2==1)
+        if (num > -10 && num < 10 && num%2==1 || num%2==-1)
         {
             estaEnAmbos = true;
             Debug.Log("estaEnAmbos = " + estaEnAmbos);
@@ -31,7 +31,7 @@ public class Ejercicio15 : MonoBehaviour
             estaEnA = true;
             Debug.Log("estaEnA = " + estaEnA);
         }
-        else if (num%2==1)
+        else if (num%2==1 || num%2==-1)
         {
             estaEnB = true;
             Debug.Log("estaEnB = " + estaEnB);
