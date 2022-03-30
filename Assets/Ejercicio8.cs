@@ -15,33 +15,29 @@ public class Ejercicio8 : MonoBehaviour
     {
         if (dia > 0 && dia < 8)
         {
-            if (dia == 1)
+           switch (dia)
             {
-                Debug.Log("Domingo");
-            }
-            if (dia == 2)
-            {
-                Debug.Log("Lunes");
-            }
-            if (dia == 3)
-            {
-                Debug.Log("Martes");
-            }
-            if (dia == 4)
-            {
-                Debug.Log("Miércoles");
-            }
-            if (dia == 5)
-            {
-                Debug.Log("Jueves");
-            }
-            if (dia == 6)
-            {
-                Debug.Log("Viernes");
-            }
-            if (dia == 7)
-            {
-                Debug.Log("Sabado");
+                case 1:
+                    Debug.Log("Domingo");
+                    break;
+                case 2:
+                    Debug.Log("Lunes");
+                    break;
+                case 3:
+                    Debug.Log("Martes");
+                    break;
+                case 4:
+                    Debug.Log("Miércoles");
+                    break;
+                case 5:
+                    Debug.Log("Jueves");
+                    break;
+                case 6:
+                    Debug.Log("Viernes");
+                    break;
+                case 7:
+                    Debug.Log("Sabado");
+                    break;
             }
         }
         else
